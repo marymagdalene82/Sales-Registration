@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./salesReg.css" />
+    <style></style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="profile">
+          <div class="profile-image"></div>
+          <div class="profile-information">
+            <span class="profile-name">Your full name</span>
+            <span class="profile-role">Role in the system</span>
+          </div>
+        </div>
+
+        <div class="navigation">
+          <a href="./dashboard.html">Dashboard</a>
+        </div>
+        <div class="navigation">
+          <a href="./salesRegistration.html">Sales Management</a>
+        </div>
+        <div class="navigation">
+          <a href="./supplierRegistration.html">Supplier Management</a>
+        </div>
+        <div class="navigation">
+          <a href="./stock.html">Stock Management</a>
+        </div>
+        <div class="navigation">
+          <a href="./transportRegistration.html">Transport Management</a>
+        </div>
+      </div>
+      <div class="content">
+        <form action="">
+          <!-- Sales registration-->
+          <section>
+            <h2>Sales Registration</h2>
+            <div class="input-container">
+              <div class="input-section">
+                <label for="salesDate">Sales Date</label>
+                <input type="date" />
+              </div>
+
+              <div class="input-section">
+                <label for="salesPerson">Sales Person</label>
+
+                <select name="">
+                  <option value="" disabled selected>
+                    Select a representative
+                  </option>
+                  <option value="1">Kenechekwu Matilda</option>
+                  <option value="2">Osia Jeremy</option>
+                </select>
+              </div>
+              <div class="input-section"></div>
+            </div>
+          </section>
+
+          <!-- Customer Details -->
+          <section>
+            <h2>Customer Details</h2>
+            <div class="input-container">
+              <div class="input-section">
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter full name" />
+              </div>
+              <div class="input-section">
+                <label for="phone">Phone Number</label>
+                <input type="tel" placeholder="Enter Phone Number" />
+              </div>
+              <div class="input-section">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter email" />
+              </div>
+              <div class="input-section">
+                <label for="name">Customer Type</label>
+                <select name="">
+                  <option disabled selected>Select customer type</option>
+                  <option value="returning">Wholesale</option>
+                  <option value="firstTime">Retail</option>
+                </select>
+              </div>
+            </div>
+          </section>
+
+          <!-- Items -->
+          <section>
+            <h2>Items</h2>
+            <div class="input-container">
+              <div class="input-section">
+                <label for="pdtId">Pdt Id</label>
+                <input type="text" />
+              </div>
+              <div class="input-section">
+                <label for="quantity">Quantity</label>
+                <input type="number" />
+              </div>
+              <div class="input-section">
+                <label for="price">Unit Price</label>
+                <input type="number" />
+              </div>
+
+              <div class="input-section">
+                <label for="pdtId">Pdt Id</label>
+                <input type="text" />
+              </div>
+              <div class="input-section">
+                <label for="quantity">Quantity</label>
+                <input type="number" />
+              </div>
+              <div class="input-section">
+                <label for="price">Unit Price</label>
+                <input type="number" />
+              </div>
+            </div>
+          </section>
+
+          <!-- Buttons -->
+          <section>
+            <div class="buttons">
+              <button type="cancel" class="cancel-button">Cancel</button>
+              <button type="submit" class="submit-button">Submit</button>
+            </div>
+          </section>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
