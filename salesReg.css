@@ -109,14 +109,17 @@ select {
   background-color: #f2f2f2;
   border: 1px solid #345bb7;
   color: #345bb7;
+   width: 45%;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 4px;
 }
 .submit-button {
   background-color: #345bb7;
   border: none;
   color: #fff;
-}
-.submit-button .cancel-button {
-  width: 45%;
+   width: 45%;
   padding: 10px 20px;
   font-size: 15px;
   font-weight: bolder;
